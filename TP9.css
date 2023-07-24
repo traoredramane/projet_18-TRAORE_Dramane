@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+nav h2 {
+  color: black;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+}
+nav .onglets {
+  margin-top: 3px;
+  margin-left: 400px;
+  text-decoration: ;
+}
+nav .onglets a {
+  text-decoration: solid;
+  color: #000;
+  margin-right: 25px;
+  font-size: 20px;
+}
+nav button {
+  padding: 10px 20px;
+  background-color: orangered;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: bisque;
+  padding: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.card .order1 {
+  padding-right: 40%;
+  right: 0%;
+}
+.card .order2 {
+  display: flex;
+  padding-left: 10%;
+}
+.order4 {
+  font-size: 30px;
+}
+.order3 {
+  font-size: 40px;
+}
+.card .order2 .element {
+  position: absolute;
+  z-index: 1;
+  right: 20%;
+  margin-bottom: 20%;
+}
+.card .order2 .element1 {
+  position: absolute;
+  z-index: 2;
+  right: 15%;
+  padding-top: 3%;
+  right: 10%;
+  padding-left: 0%;
+}
+.card .order2 .element2 {
+  position: absolute;
+  z-index: 3;
+  right: 13%;
+  padding-top: 8%;
+  padding-right: 5%;
+}
+
+.card .order1 .button {
+  background-color: orange;
+  padding: 10px 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card .order1 .button1 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.section-feactured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+.container {
+  padding: 3%;
+}
+.heading-feactured-in {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.order5 {
+  display: flex;
+  justify-content: space-between;
+}
+.order6 {
+  color: orange;
+}
+.order7 {
+  font-size: 40px;
+  margin-top: 0%;
+}
+.order8 {
+  font-size: 60px;
+  color: rgb(100, 94, 94);
+}
+.order9 {
+  font-size: 30px;
+  margin-top: 0%;
+}
+.order10 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  margin-left: 8%;
+  margin-right: 5%;
+}
+.section {
+  padding-left: 10%;
+  padding-right: 30%;
+}
+.section1 {
+  font-size: 20px;
+}
+.section2 {
+  padding-left: 30%;
+  padding-right: 10%;
+}
+
+.card1 {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+.card3 {
+  display: flex;
+  flex-direction: column;
+}
+.card4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 90px;
+}
+.card5 {
+  margin-left: 50px;
+  padding: 0.1em;
+  background-color: rgb(238, 248, 244);
+}
+.card6 {
+  margin-right: 0%;
+  margin-left: 10%;
+  padding: 0.1em;
+  background-color: rgb(242, 242, 246);
+}
+.card7 li {
+  margin-left: 5%;
+  padding: 10%;
+  position: relative;
+  left: 30px;
+}
+.card8 {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+.rel {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+}
+.rel1 {
+  display: flex;
+  justify-content: space-between;
+}
+.rel2 {
+  margin-right: 20px;
+}
+.card9 {
+  display: flex;
+}
+.card10 {
+  display: flex;
+  justify-content: space-between;
+}
+.cover {
+  border: 1px solid fuchsia;
+  border-radius: 50%;
+  font-size: 2px;
+  object-fit: cover;
+}
+.cover1 {
+  display: flex;
+  justify-content: space-between;
+}
+.cover2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.content1 {
+  padding: 10px 20px;
+  background-color: orangered;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.content2 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.cover3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(240, 124, 82);
+}
+.cover4 {
+  margin-right: 200px;
+  font-size: 20px;
+}
+.content3 {
+  display: flex;
+  justify-content: space-between;
+}
+.content4 {
+  margin-right: 20px;
+}
+.rel3 {
+  padding-right: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.marge1 {
+ 
+  background-color: rgb(212, 163, 146);
+  border-radius: 20px;
+}
+.marge2 {
+  border: 1px solid orangered;
+  border-radius: 20px;
+}
+
+.a {
+  width: 350px;
+  height: 400px;
+  display: flex;
+}
+.card2 {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  
+}
+.m {
+   display: flex;
+   justify-content: space-around;
+position: relative;
+margin-bottom: 100px;
+}
+.s{
+   margin-left: 150px;
+}
+.nu{
+position: relative;
+flex: 50px;
+margin-left: 420px;
+}
+.mu{
+position: relative;
+right: 0px;
+bottom: 50px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+}
+.tu{
+   position: relative;
+   width: 300px;
+height: 300px;
+margin-top: 30px;
+}
+@media screen {
+  h1 
+  font-style: 14px;
+  font: x-large/50%;
+} 
+@media screen
+  .order7 {
+    font-size: 40px;
+    margin-top: 0%;
+    text-align: center;
+}
+@media screen {
+  
+}
+
+  
