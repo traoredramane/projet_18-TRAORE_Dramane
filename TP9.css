@@ -3,47 +3,16 @@ body {
   padding: 0;
   font-family: "Rubik", sans-serif;
 }
-/* 
-nav {
-  background-color: bisque;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-nav h2 {
-  color: black;
-  font-family: "Rubik", sans-serif;
-  font-size: 30px;
-}
-nav .onglets {
-  margin-top: 3px;
-  margin-left: 400px;
-  text-decoration: ;
-}
-nav .onglets a {
-  text-decoration: solid;
-  color: #000;
-  margin-right: 25px;
-  font-size: 20px;
-}
-nav button {
-  padding: 10px 20px;
-  background-color: orangered;
-  color: aliceblue;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-} */
 
 header {
-  position: absolute;
+  
   width: 96%;
   top: 0;
   left: 0;
   background: #000;
   color: #fff;
   padding: 0 2rem;
+  
 }
 
 nav {
@@ -87,108 +56,147 @@ nav {
 
 .card {
   background-color: bisque;
+  height: 700px;
   padding: 4%;
   display: flex;
   justify-content: space-between;
 }
-.card .order1 {
-  padding-right: 40%;
-  right: 0%;
+
+.order1 {
+
+  font-size: 5em;
 }
-.card .order2 {
-  display: flex;
-  padding-left: 10%;
-}
+
 .order4 {
   font-size: 30px;
 }
+
 .order3 {
-  font-size: 40px;
+  font-size: 4rem;
+  margin-bottom: 3rem;
 }
-.card .order2 .element {
+
+
+.order2 {
+  
+  margin-top: 10%;
+}
+
+.order2 img {
+  width: 250px;
+
+}
+
+.ind1 {
   position: absolute;
   z-index: 1;
-  right: 16%;
-  margin-bottom: 20%;
-  margin-top:50px;
+  padding-top: 0%;
+  padding-bottom: 25%;
+  right: 10%;
+  bottom: 5%;
 }
-.card .order2 .element1 {
+
+.ind2 {
   position: absolute;
   z-index: 2;
-  right: 10%;
-  padding-top: 3%;
-  padding-left: 0%;
-  margin-top: 50px;
+  right: 15%;
+  bottom: 30%;
+  
 }
-.card .order2 .element2 {
+
+.ind3 {
   position: absolute;
   z-index: 3;
-  right: 10%;
-  padding-top: 7%;
-  padding-right: 5%;
-  margin-top: 50px;
+  
+  padding-bottom: 0%;
+  bottom: 25%;
+  margin-left: 10%;
+  right: 8%;
 }
-
-
 
 .card .order1 .button {
   background-color: orange;
-  padding: 10px 20px;
+  font-size: 2rem;
+  padding: 12.8px 25.5px;
   color: aliceblue;
   border: none;
   border-radius: 10px;
   cursor: pointer;
 }
+
 .card .order1 .button1 {
-  padding: 10px 20px;
+  padding: 12.8px 25.5px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 2rem;
 }
+
 .section-feactured {
   padding: 4.8rem 0 3.2rem 0;
 }
+
 .container {
+  margin-left: 70px;
+  margin-right: 70px;
   padding: 3%;
 }
+
 .heading-feactured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
   align-items: center;
   display: flex;
   justify-content: center;
+  color: #888;
 }
+
 .order5 {
   display: flex;
-  justify-content: space-between;
+  height: 2.4rem;
+  justify-content: space-around;
 }
+
 .order6 {
   color: orange;
+  padding-top: 70px;
+  margin-left: 70px;
 }
+
 .order7 {
-  font-size: 40px;
-  margin-top: 0%;
+  font-size: 3rem;
+  margin-left: 70px;
 }
+
 .order8 {
   font-size: 60px;
   color: rgb(100, 94, 94);
 }
+
 .order9 {
   font-size: 30px;
   margin-top: 0%;
 }
+
 .order10 {
+  
   display: flex;
   justify-content: space-between;
   padding: 0%;
-  margin-left: 8%;
-  margin-right: 5%;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
 .section {
   padding-left: 10%;
   padding-right: 30%;
 }
+
 .section1 {
   font-size: 20px;
 }
+
 .section2 {
   padding-left: 30%;
   padding-right: 10%;
@@ -199,80 +207,131 @@ nav {
   display: flex;
   justify-content: center;
 }
+
 .card3 {
   display: flex;
   flex-direction: column;
 }
+
 .card4 {
   display: flex;
   justify-content: space-between;
   margin-left: 30px;
   margin-right: 90px;
 }
+
 .card5 {
   margin-left: 50px;
   padding: 0.1em;
   background-color: rgb(238, 248, 244);
 }
+
 .card6 {
   margin-right: 0%;
   margin-left: 10%;
   padding: 0.1em;
   background-color: rgb(242, 242, 246);
 }
+
 .card7 li {
   margin-left: 5%;
   padding: 10%;
   position: relative;
   left: 30px;
 }
+
 .card8 {
   color: orange;
   display: flex;
   justify-content: center;
 }
+
 .rel {
   background-color: bisque;
   display: flex;
   justify-content: space-between;
 }
+
 .rel1 {
   display: flex;
   justify-content: space-between;
 }
-.rel2 {
-  margin-right: 20px;
+
+.row {
+  /* margin-right: 20px; */
 }
-.card9 {
+
+/* .card9 {
   display: flex;
-}
+  margin-left: 100px;
+  justify-content: space-around;
+} */
+
 .card10 {
   display: flex;
   justify-content: space-between;
-}
+} 
+
+
 .cover {
-  border: 1px solid fuchsia;
+  border: 2px solid fuchsia;
   border-radius: 50%;
-  font-size: 2px;
+  width: 50px;
   object-fit: cover;
 }
+
+.cov {
+  font-size: 1.8rem;
+}
+
+.ter {
+  font-size: 2rem;
+  color: chocolate;
+}
+
 .cover1 {
   display: flex;
   justify-content: space-between;
 }
+
+.cover-n {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.cover-f{
+  
+  color: chocolate;
+}
+
+.nuvo {
+  font-size: 2.4rem;
+}
+
+
+.vor1 {
+  text-align: center;
+  font-size: 60px;
+  border-radius: 50px;
+  color: chocolate;
+}
+
 .cover2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: 50px;
 }
+
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+
 .content1 {
   padding: 10px 20px;
   background-color: orangered;
@@ -281,41 +340,52 @@ nav {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .content2 {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  margin-top: 50px;
 }
+
 .cover3 {
   display: flex;
+  margin-top: 70px;
+  border-radius: 50px;
   justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: rgb(240, 124, 82);
 }
+
 .cover4 {
   margin-right: 200px;
   font-size: 20px;
 }
+
 .content3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .content4 {
-  margin-right: 20px;
+  margin-right: 10px;
 }
+
 .rel3 {
   padding-right: 20px;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
 }
+
 .marge1 {
- 
+
   background-color: rgb(212, 163, 146);
   border-radius: 20px;
 }
+
 .marge2 {
   border: 1px solid orangered;
   border-radius: 20px;
@@ -323,42 +393,105 @@ footer {
 
 .a {
   width: 350px;
+  border-radius: 11px;
+  transition: all 0.4;
   height: 400px;
   display: flex;
 }
-.card2 {
+
+.case {
   color: orange;
   display: flex;
   justify-content: center;
+
+}
+
+.transform {
+display: flex;
+}
+
+.form1 {
+  justify-content: space-between;
+  margin-left: 200px;
+}
+ 
+.veg1 {
+  border-radius: 100px;
+  font-size: 1rem;
+  color: #333;
+  background-color: rgb(61, 173, 61);
+}
+
+.rtur {
+  display: flex;
+  font-size: 11px;
   
 }
+.rtur1 {
+  border-radius: 50px;
+  color: rgb(90, 135, 23);
+}
+.rtur2{
+  border-radius: 50px;
+  color: #eeae0c;
+}
+
+.bout1 {
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 200px;
+  margin-top: 100px;
+  background-color: #eeae0c;
+}
+.never {
+  text-align: center;
+  margin-top: 10px;
+  
+  
+}
+.never1 {
+  font-size: 4.1rem;
+}
+
+.never3 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
 .m {
-   display: flex;
-   justify-content: space-around;
-position: relative;
-margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-bottom: 100px;
 }
-.s{
-   margin-left: 150px;
+
+.s {
+  margin-left: 150px;
 }
-.nu{
-position: relative;
-flex: 50px;
-margin-left: 420px;
+
+.nu {
+  position: relative;
+  flex: 50px;
+  margin-left: 420px;
 }
-.mu{
-position: relative;
-right: 0px;
-bottom: 50px;
-padding-bottom: 20px;
-margin-bottom: 50px;
+
+.mu {
+  position: relative;
+  right: 0px;
+  bottom: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
-.tu{
-   position: relative;
-   width: 300px;
-height: 300px;
-margin-top: 30px;
+
+.tu {
+  
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+  gap: 1.6rem;
 }
+
 /* }
 @media screen {
   h1 
@@ -371,35 +504,160 @@ margin-top: 30px;
     margin-top: 0%;
     text-align: center;
 } */
- 
+
 @media all and (max-width: 991px) {
+
+  header {
+
+  }
+
   .toggle {
     display: block;
-     font-size: 2rem;
-     cursor: pointer;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 21;
   }
-  
+
+  .lg {
+    position: relative;
+    z-index: 20;
+    margin-top: 25px;
+  }
+
   .ouvrir {
     display: block;
   }
-  
+
   .fermer {
     display: none;
   }
-  
+
   .open .ouvrir {
     display: none;
   }
-  
-  
+
+
   .open .fermer {
     display: block;
   }
-  
-} 
-@media screen  {
-  
+
+  .onglets {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 1s;
+    z-index: 20;
+  }
+
+  .onglets li a {
+    font-size: 2rem;
+  }
+
+  .BT-1 {
+    font-size: 2rem;
+  }
+
+  .open .onglets {
+    transform: translateX(0);
+  }
+
+  .card {
+    height: 1300px;
+    flex-direction: column;
+
+
+  }
+}
+
+.card .order1 .button1 {
+  font-size: 1rem;
+
+}
+
+.card .order1 .button {
+  font-size: 1rem;
+
 }
 
 
-  
+
+@media all and (max-width: 300px) {
+
+
+
+  header {
+    background: transparent;
+  }
+
+  .toggle {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+  }
+
+  .lg {
+    position: relative;
+    z-index: 20;
+  }
+
+  .ouvrir {
+    display: block;
+  }
+
+  .fermer {
+    display: none;
+  }
+
+  .open .ouvrir {
+    display: none;
+  }
+
+
+  .open .fermer {
+    display: block;
+  }
+
+  .onglets {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 1s;
+  }
+
+  .onglets li a {
+    font-size: 2rem;
+  }
+
+  .BT-1 {
+    font-size: 2rem;
+  }
+
+  .open .onglets {
+    transform: translateX(0);
+  }
+
+  .card {
+    height: 1500px;
+    flex-direction: column;
+
+
+
+  }
+}
