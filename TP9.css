@@ -119,7 +119,8 @@ nav {
 .card .order1 .button {
   background-color: orange;
   font-size: 2rem;
-  padding: 12.8px 25.5px;
+  padding: 20px;
+  width: 300px;
   color: aliceblue;
   border: none;
   border-radius: 10px;
@@ -127,11 +128,12 @@ nav {
 }
 
 .card .order1 .button1 {
-  padding: 12.8px 25.5px;
+  padding: 20px;
+  width: 300px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: rem;
 }
 
 .section-feactured {
@@ -193,6 +195,14 @@ nav {
 .section {
   padding-left: 10%;
   padding-right: 30%;
+  margin-top: 50px;
+}
+
+
+.section-1 {
+  padding-left: 10%;
+  padding-right: 30%;
+  margin-top: 40px;
 }
 
 .section1 {
@@ -381,17 +391,19 @@ nav {
 
 .loz {
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 30px;
   padding: 3px 10px;
   padding-left: 80px;
   margin-left: 40px;
+  margin-right: 100px;
+  border-radius: 20px;
 }
 
 .content3-1 {
   margin-top: 50px;
   justify-content: space-around;
   display: flex;
-  padding-right: 450px;
+  padding-right: 400px;
 
 }
 
@@ -592,6 +604,34 @@ display: flex;
     position: relative;
     z-index: 21;
   }
+  
+  .content {
+    flex-direction: column;
+  }
+  
+  .content3 {
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  
+  .content3-1{
+    flex-direction: column;
+    padding-right: 0px;
+    margin-top: 0px;
+  }
+  
+  .cover3 {
+    height: 800px;
+  }
+  
+  .bout1 {
+    font-size: 20px;
+    width: 100px;
+  }
+  
+  footer {
+    flex-direction: column;
+  }
 
   .lg {
     position: relative;
@@ -678,6 +718,8 @@ display: flex;
   }
   
   .order10 {
+    margin-left: 50px;
+    margin-right: 50px;
     flex-direction: column;
   }
   
@@ -709,6 +751,26 @@ display: flex;
   flex-direction: column
   }
   
+  .content {
+    flex-direction: column;
+  }
+  
+  
+  .content3 {
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  
+  .content3-1{
+    flex-direction: column;
+    padding-right: 0px;
+    margin-top: 0px;
+  }
+  
+  .cover3 {
+    height: 800px;
+  }
+  
   .heading-feactured-in {
     font-size: 10px;
     padding-right: 30px;
@@ -716,11 +778,12 @@ display: flex;
   
   
   .button-n {
-   justify-content: center 
+   justify-content: center;
+   
   }
 
   header {
-    opacity: 0.5;
+    opacity:;
   }
 
   .toggle {
@@ -736,6 +799,18 @@ display: flex;
     position: relative;
     z-index: 20;
     
+  }
+  
+  
+  .content3 {
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  
+  .content3-1{
+    flex-direction: column;
+    padding-right: 0px;
+    margin-top: 0px;
   }
 
   .ouvrir {
@@ -786,16 +861,25 @@ display: flex;
     flex-direction: column;
   }
   
-  .button {
+  .card {
     margin-top: -100px;
   }
   
-  .button1 {
-    margin-top: -100px;
+  .card .order1 .button1 {
+    padding: 1px;
+    width: 50px;
+  }
+  
+  
+  .card .order1 .button {
+    padding: 1px;
+    width: 50px;
   }
   
  .order3 {
+   margin-top: 100px;
    margin-bottom: 0px;
+   margin-left: 2px;
  } 
  .ind1 {
  display: none;
@@ -809,4 +893,36 @@ display: flex;
     display: none;
   }
   
+}
+
+@media screen and (max-width: 1374px) {
+  
+  
+  .content3 {
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  
+  .content3-1{
+    flex-direction: column;
+    padding-right: 0px;
+    margin-top: 0px;
+  }
+
+  
+}
+
+@media screen and (max-width: 350px) { 
+    .bout1 {
+      display: none;
+    }
+  
+}
+
+@media screen and (max-width: 440px) {
+  .bout1 {
+    width: 50px;
+    margin-top: 50px;
+    flex-direction: column;
+  }
 }
